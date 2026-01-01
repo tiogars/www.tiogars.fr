@@ -17,6 +17,6 @@ export const websites: Website[] = [
     name: 'Features',
     description: 'Prepare features and challenge your GitHub copilot by assigning an issue',
     url: 'https://features.tiogars.fr',
-    githubRepo: 'https://github.com/tiogars/features.tiogars.fr,
+    githubRepo: 'https://github.com/tiogars/features.tiogars.fr',
   },
 ];
