@@ -8,10 +8,10 @@ export const websites: Website[] = [
     githubRepo: 'https://github.com/tiogars/www.tiogars.fr',
   },
   {
-    name: 'Example Project 1',
-    description: 'A sample web application built with React and TypeScript',
-    url: 'https://example.com',
-    githubRepo: 'https://github.com/example/project1',
+    name: 'Bricks',
+    description: 'A simple brick manager in you browser.',
+    url: 'https://bricks.tiogars.fr',
+    githubRepo: 'https://github.com/tiogars/bricks.tiogars.fr',
   },
   {
     name: 'Example Project 2',
