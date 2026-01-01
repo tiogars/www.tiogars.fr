@@ -1,7 +1,7 @@
 import { Container, Typography, Box, CssBaseline } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import WebsiteCard from './WebsiteCard';
-import { websites } from './data';
+import WebsiteCard from '../WebsiteCard';
+import { websites } from '../data';
 
 const theme = createTheme({
   palette: {
@@ -15,7 +15,7 @@ const theme = createTheme({
   },
 });
 
-function App() {
+const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
@@ -63,6 +63,6 @@ function App() {
       </Box>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

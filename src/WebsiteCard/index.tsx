@@ -7,13 +7,9 @@ import {
   Box,
 } from '@mui/material';
 import { Language, GitHub } from '@mui/icons-material';
-import type { Website } from './types';
+import type { WebsiteCardProps } from './WebsiteCard.types';
 
-interface WebsiteCardProps {
-  website: Website;
-}
-
-export default function WebsiteCard({ website }: WebsiteCardProps) {
+const WebsiteCard = ({ website }: WebsiteCardProps) => {
   return (
     <Card
       sx={{
@@ -61,4 +57,6 @@ export default function WebsiteCard({ website }: WebsiteCardProps) {
       </CardActions>
     </Card>
   );
-}
+};
+
+export default WebsiteCard;
