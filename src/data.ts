@@ -14,9 +14,9 @@ export const websites: Website[] = [
     githubRepo: 'https://github.com/tiogars/bricks.tiogars.fr',
   },
   {
-    name: 'Example Project 2',
-    description: 'Another amazing project with modern web technologies',
-    url: 'https://example.org',
-    githubRepo: 'https://github.com/example/project2',
+    name: 'Features',
+    description: 'Prepare features and challenge your GitHub copilot by assigning an issue,
+    url: 'https://features.tiogars.fr',
+    githubRepo: 'https://github.com/tiogars/features.tiogars.fr,
   },
 ];
