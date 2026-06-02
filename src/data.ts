@@ -2,8 +2,20 @@ import type { Website } from './types';
 
 export const websites: Website[] = [
   {
+    name: 'Android',
+    description: 'Setup an android app collection in your browser',
+    url: 'https://android.tiogars.fr',
+    githubRepo: 'https://github.com/tiogars/android.tiogars.fr',
+  },
+  {
+    name: 'Calendar',
+    description: 'Setup a calendar to print',
+    url: 'https://calendar.tiogars.fr',
+    githubRepo: 'https://github.com/tiogars/calendar',
+  },
+  {
     name: 'Tiogars Portfolio',
-    description: 'Personal portfolio website showcasing projects and skills',
+    description: 'This personal portfolio website showcasing projects and skills',
     url: 'https://tiogars.github.io/www.tiogars.fr',
     githubRepo: 'https://github.com/tiogars/www.tiogars.fr',
   },
